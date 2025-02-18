@@ -86,7 +86,7 @@ Rewards plot over 32 models:
 
 ## Important Notes on Training Stability
 
-This approach is designed for the initial learning phase. The implementation of memory management, regret analysis, and network training has been written for early-stage learning dynamics. However, other parameters are crudely tuned to stabilize learning.
+This approach is written for the initial learning phase, where memory management, regret analysis, and network training is aimed for early-stage learning dynamics. However, later crudely tuned to stabilize learning.
 
 ---
 
