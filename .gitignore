@@ -1,0 +1,12 @@
+# Ignore backup files
+*~
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore backups
+backups/
+
+# Ignore helper functions
+exponential_uniform_distribution.py
