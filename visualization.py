@@ -104,7 +104,6 @@ if __name__ == "__main__":
 
     # seed = 1994:
     # selected_players = [3, 0, 9, 11, 12, 16, 19, 23, 21, 24]
-    selected_players = [3, 0, 9, 11, 12]
     
     # non-seeded ones:
     # selected_players = [3, 4, 13, 0, 1, 6, 11, 14] 

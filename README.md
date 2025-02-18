@@ -76,7 +76,7 @@ cartpole-rl/
 
 ## Results
 
-Rewards plot top 10 models:
+Rewards plot for the top 10 models:
 ![Training Performance](rewards_plot_top10.png)  
 
 Rewards plot over 32 models:
@@ -86,14 +86,7 @@ Rewards plot over 32 models:
 
 ## Important Notes on Training Stability
 
-This approach is primarily designed for the **initial learning phase**. The implementation of **memory management, regret analysis, and network training** has been written for early-stage learning dynamics.
-
-nHowever, other parameters are **crudely tuned to stabilize learning**. As a result:
-- **Not all runs learn at the same speed.**  
-- When training **32 agents**, more than half **succeeds very well**, and all of them **consistently achieve rewards above 200**.  
-- The results are presented for those agents that achieve successful learning within this window.
-
-This should be considered when analyzing the performance of this method across different experimental conditions.
+This approach is designed for the initial learning phase. The implementation of memory management, regret analysis, and network training has been written for early-stage learning dynamics. However, other parameters are crudely tuned to stabilize learning.
 
 ---
 
